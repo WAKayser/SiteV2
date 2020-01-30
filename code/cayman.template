@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>$title$</title>
+    <meta name="generator" content="pandoc">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+$for(author-meta)$
+    <meta name="author" content="$author-meta$">
+$endfor$
+$if(date-meta)$
+    <meta name="dcterms.date" content="$date-meta$">
+$endif$
+$if(description)$
+    <meta name="description" content="$description$">
+$endif$
+$if(keywords)$
+    <meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$">
+$endif$
+$if(quotes)$
+    <style type="text/css">q { quotes: "“" "”" "‘" "’"; }</style>
+$endif$
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="stylesheets/cayman.css">
+$if(highlight)$    
+    <link rel="stylesheet" href="stylesheets/highlight.css">
+    <script src="javascripts/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+$endif$
+
+$if(math)$
+    $math$
+$endif$
+  </head>
+  <body>
+    <section class="page-header">
+      <div class="page-header-content">
+      <img src="images/wouter.jpg" alt="Wouter Kayser" id="profile"> 
+      <div id="right">
+        <h1 class="project-name space">$website_title$</h1>
+        <h2 class="project-tagline space">$website_tagline$</h2>
+        <a href="index.html" class="btn">Home</a>
+        <a href="CV.html" class="btn">CV</a>
+        <a href="NOW.html" class="btn">Now</a>
+        <a href="Projects.html" class="btn">Projects</a>
+      </div>
+    </div>
+    </section>
+    <section class="main-content">
+      $body$
+    </section>
+  </body>
+</html>

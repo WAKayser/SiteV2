@@ -1,0 +1,68 @@
+
+---
+# ^ DON'T REMOVE the "---" above!
+# ==============================================================================
+#                                 WEBSITE HEADER                                
+# ==============================================================================
+# These variables are shown in the website header.
+# ------------------------------------------------------------------------------
+website_title:   'Wouter Kayser'
+website_tagline: 'Personal home page for Wouter Kayser'
+
+# ==============================================================================
+#                                   HTML META                                   
+# ==============================================================================
+# HTML Metadata -- for <head> section
+# If you don't need a variable, delete its line or comment it out with a `#`!
+# ------------------------------------------------------------------------------
+title: 'Wouter Kayser'
+date:   4th January 2020
+author:
+  - Wouter Kayser
+description: 'Simple Homepage for Wouter Kayser'
+keywords:
+  - Wouter Kayser
+  - Electrical Engineering
+  - IoT
+  - 5G
+  - M2M
+# ==============================================================================
+#                        CUSTOM HTML TO INJECT IN HEADER                        
+# ==============================================================================
+# This optional indented block literal scalar can be used to inject (verbatim)
+# raw html at the end of the head section, just before the closing </head> tag.
+# This can be used to include CSS with absolute URLs, or JavaScript files -- or
+# anything you want, without actually editing the template file.
+# ------------------------------------------------------------------------------
+# header-includes: 
+# ******************************************************************************
+# *                             INSERT BEFORE BODY                             *
+# ******************************************************************************
+# You can inject some extra contents after the opening <body> tag and before the
+# contents of your 'README.md' file. It will be parsed as markdown and converted
+# to html by pandoc. Use raw html if you need advanced features, but remember
+# that all loose text will be enclosed in <p> tags -- wrap it inside a <div> if
+# you don't want it parsed as markdown!
+# ------------------------------------------------------------------------------
+# include-before: |
+#     <!-- anything you put here will go before the opening <body> tag
+#          (ie: before the README’s contents) Markdown will become HTML  -->
+# ******************************************************************************
+# *                             INSERT AFTER BODY                              *
+# ******************************************************************************
+# You can also inject extra contents after those of your 'README.md' file and
+# before the closing </body> tag. Same rules as for 'include-before' variable.
+# ------------------------------------------------------------------------------
+# include-after: |
+#     <!-- anything you put here will go before the closing </body> tag
+#          (ie: after the README’s contents) Markdown will become HTML  -->
+#     ---
+#     # Injected Text
+    
+#     This paragraph, the preceding heading and horizontal ruler were defined in
+#     the `include-after` string variable inside the YAML configuration file.
+#     They were injected after the contents of the `README.md` file, and before
+#     the closing `</body>` tag.
+# ------------------------------------------------------------------------------
+# DON'T REMOVE the "..." below:
+...
