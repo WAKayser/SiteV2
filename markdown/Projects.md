@@ -13,8 +13,10 @@ During the customization of my summaries I learned about the powers of Pandoc. T
 
 ## Acoustic Vector Sensing
 
+One of my future projects would be to fill in the rest of this page.
+
 ## Impact of Regional Failures on Internet
 
-## NB IoT Data Analysis at Vodafone
+## NB-IoT Data Analysis at Vodafone
 
 ## Mechanical Keyboards

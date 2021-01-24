@@ -10,7 +10,7 @@ Get in contact via mail [mail@wakayser.nl](mailto:mail@wakayser.nl)
 ## Experience
 
 #### Graduation Project - VodafoneZiggo
-_Feb. 2020 - Sep. 2020_
+_Feb. 2020 - Spring 2021_
 
 Analyzing the largest NB\-IoT network in the world. To gain new perspectives or find new patterns. Which might lead to prolonging battery life of IoT devices and reducing network costs. 
 

@@ -8,5 +8,5 @@ Currently I am working on the following things:
 <!-- * Finishing off the last few courses of my studies. -->
 * Preparing a MSc thesis to start on at VodafoneZiggo.
 * Always working on a new design for my personal homepage.
-* Finalizing a book of all the summaries I made for my MSc studies.
-* Organizing the [EEMCS Recruitment Days](https://www.eemcs.com) for all EEMCS students at TU Delft.
+* Completing Hack the Box challenges.
+* Looking for employment in the IoT, Cyber and communications sector.
